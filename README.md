@@ -1,10 +1,10 @@
 # Angular Chrome Headless Docker
-Docker image with embedded Node 9 and Chrome Headless preconfigured for Angular unit/e2e tests on your CI/CD servers
+Docker image with embedded Node 12 and Chrome Headless preconfigured for Angular unit/e2e tests on your CI/CD servers
 
 
 ### Get the image: 
 
-`docker pull avatsaev/angular-chrome-headless`
+`docker pull lukaszgodula/angular-chrome-headless-docker-node-12`
 
 #### Launch scripts:
 
