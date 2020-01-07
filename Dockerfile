@@ -1,4 +1,4 @@
-FROM sdebruyn/docker-debian-git
+FROM debian:stable-slim
 
 RUN apt-get update
 RUN apt-get install -yy wget curl gnupg
@@ -13,6 +13,6 @@ RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key
   apt-get update && \
   apt-get install -y google-chrome-stable xvfb
 RUN npm -v
-RUN apt update && apt install -y procps
+RUN apt update && apt install -y procps git
 RUN apt clean
 RUN rm -rf /var/lib/apt/lists/*
