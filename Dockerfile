@@ -1,4 +1,4 @@
-FROM debian:stable-slim
+FROM sdebruyn/docker-debian-git
 
 RUN apt-get update
 RUN apt-get install -yy wget curl gnupg
